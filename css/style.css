@@ -2477,3 +2477,55 @@ figure.dotted-bg:before {
 .gsap-reveal-img {
   opacity: 1;
 }
+.bio-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.bio-content p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+
+@media (max-width: 991px) {
+  .bio-images {
+    margin-top: 40px;
+  }
+}
+.bio-content {
+  height: 100%;
+}
+
+.bio-images {
+  padding-left: 15px;
+}
+
+.image-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .bio-images {
+    margin-top: 40px;
+    padding-left: 0;
+  }
+}
